@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: greet.GreetTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in greet.GreetTest
+shouldBeAbleToClearList  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: greet/Greet
+	at greet.GreetTest.shouldBeAbleToClearList(GreetTest.java:51)
+Caused by: java.lang.ClassNotFoundException: greet.Greet
+	at greet.GreetTest.shouldBeAbleToClearList(GreetTest.java:51)
+
+shouldReturnHowManyTimesAPersonHasBeenGreeted  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: greet/Greet
+	at greet.GreetTest.shouldReturnHowManyTimesAPersonHasBeenGreeted(GreetTest.java:11)
+
+shouldReturnCountOfHowManyUniqueNamesHaveBeenGreeted  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: greet/Greet
+	at greet.GreetTest.shouldReturnCountOfHowManyUniqueNamesHaveBeenGreeted(GreetTest.java:23)
+
+shouldBeAbleToDeleteAPersonFromTheList  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: greet/Greet
+	at greet.GreetTest.shouldBeAbleToDeleteAPersonFromTheList(GreetTest.java:35)
+
